@@ -18,7 +18,7 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background-image: url(images/pattern-background-desktop.svg);
+  background-image: url(pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-color: var(--main-bg);
   display: flex;
@@ -38,7 +38,7 @@
 .card_image {
   width: 100%;
   height: 30%;
-  background: url(images/illustration-hero.svg);
+  background: url(illustration-hero.svg);
   background-position: center;
   background-size: cover;
   border-radius: 1rem 1rem 0 0;
@@ -86,7 +86,7 @@
 .music_icon {
   width: 50px;
   height: 50px;
-  background: url(images/icon-music.svg);
+  background: url(icon-music.svg);
   background-position: center;
   background-size: cover;
 }
@@ -197,7 +197,7 @@
   .container {
     width: 100vw;
     height: 100vh;
-    background-image: url(images/pattern-background-mobile.svg);
+    background-image: url(pattern-background-mobile.svg);
     background-repeat: no-repeat;
     background-color: var(--main-bg);
     display: flex;

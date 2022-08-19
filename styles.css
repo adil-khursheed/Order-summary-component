@@ -19,7 +19,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url(images/pattern-background-desktop.svg);
+  background-image: url(pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-color: var(--pale-blue);
@@ -154,7 +154,7 @@ body {
 @media only screen and (max-width: 480px) {
 
   body {
-    background-image: url(images/pattern-background-mobile.svg);
+    background-image: url(pattern-background-mobile.svg);
   }
   
   .card {

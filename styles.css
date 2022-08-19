@@ -19,8 +19,9 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url(pattern-background-desktop.svg);
+  background-image: url(images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
+  background-size: contain;
   background-color: var(--pale-blue);
   display: flex;
   justify-content: center;
@@ -29,7 +30,7 @@ body {
 }
 
 .card {
-  width: 380px;
+  max-width: 380px;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0px 20px 15px hsl(245, 100%, 89%);
@@ -153,7 +154,7 @@ body {
 @media only screen and (max-width: 480px) {
 
   body {
-    background-image: url(pattern-background-mobile.svg);
+    background-image: url(images/pattern-background-mobile.svg);
   }
   
   .card {
